@@ -1,0 +1,670 @@
+/*
+"Groups Page" Page, the one with many colors
+*/
+
+.group-div{
+  max-width: 100%;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  transition: all ease 0.25s;
+  padding: 16px;
+  cursor: pointer; 
+  background-color:  white;
+}
+
+.group-div-change-btns{
+ float: right;
+ margin-top: -50px;
+}
+
+.group-div-change-btns i {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px;
+  transition: all ease 0.25s;
+}
+
+.group-div-change-btns i:hover{
+  background-color: black;
+  color: white;
+}
+
+.group-add-btn{
+  max-width: 100%;
+  height: 150px;
+  margin: 0px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #00C853;
+  border-width: 2px;
+  color: #00c853;
+  transition: all ease 0.25s;
+  cursor: pointer;
+}
+
+.group-add-btn:hover{
+  background-color: #00C853;
+  transition: all ease 0.5s;
+  color: white;
+}
+
+.grouppage-title{
+  width: fit-content;
+}
+
+.group-div h3{
+  width: fit-content;
+}
+
+.group-add-icon-container{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+}
+
+.group-add-icon-container i{
+  align-self: center;
+  
+}
+
+.group-comp-input{
+  display: none;
+  font-size: 24px;
+  height: 36px;
+}
+
+
+
+/*
+Individual Group Page
+*/
+
+.online-alert{
+  text-align: center;
+  color: #aaa;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #999;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.online-alert:hover {
+  color: black;
+}
+
+.group-container {
+  font-family: 'Poppins', sans-serif;
+  width:100%;
+  max-height: calc(100vh - 60px);
+  overflow: hidden;
+  background-color: white;
+}
+
+.group-col {
+  display: inline-block;
+}
+
+.group-members-col {
+  width: 300px;
+  height: calc(100vh - 60px);
+  background-color: #eee; 
+  float: left;
+  overflow-x: hidden; 
+  
+}
+
+.group-main-col {
+  position: absolute;
+  min-width: 400px;
+  width: calc(100% - 500px);
+  max-height: calc(100vh - 60px);
+  background-color: #fff;
+  float: left;
+}
+
+.group-other-col {
+  width: 200px;
+  height: calc(100vh - 60px);
+  background-color: #eee;
+  float: right;
+  overflow-x: hidden;
+}
+
+.group-title{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  max-width: 80%;
+  
+}
+
+/* GROUP MEMBER */
+
+.groupmember {
+  padding: 6px;
+  background-color: #eee;
+  width: 284px;
+  height: 50px;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+
+.groupmember:hover {
+  background-color: #ccc;
+}
+
+
+.groupmember-pic{
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.groupmember-name {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 6px;
+  padding-top: 10px;
+}
+
+.groupmember-delete{
+  float: right;
+  padding: 12px;
+  transition: all ease 0.1s;
+  border-radius: 3px;
+  color: #bbb;
+}
+
+.groupmember-delete:hover{
+  background-color: #ff5252;
+  transition: all ease 0.1s;
+  color: black;
+}
+
+.group-add-member-container{
+  padding: 10px;
+}
+
+.group-add-member-inner{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #00C853;
+  border-width: 2px;
+  color: #00c853;
+  cursor: pointer;
+  transition: all ease 0.25s;
+}
+
+.group-add-member-inner:hover{
+  background-color: #00c853;
+  color: white;
+  transition: all ease 0.25s;
+}
+
+.group-add-member-btn{
+  align-self: center;
+}
+
+.group-add-member-input-container{
+  height: 54px;
+  padding: 10px;
+  padding-right: 0;
+
+}
+
+#group-add-member-accept-btn{
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 6px;
+  color: white;
+  border-radius: 3px;
+  background-color: #00c853;
+  
+}
+
+#group-add-member-accept-btn:hover{
+  background-color: green;
+}
+
+#group-add-member-input{
+  height: 30px;
+  width: calc(100% - 50px);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.group-add-member-input-container{
+  display: none;
+}
+
+.group-add-member-cancel-btn{
+  font-size: 14px;
+  background-color: #ff5252;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  width: calc(100% - 10px);
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.group-add-member-cancel-btn:hover{
+  background-color: #b71c1c;
+}
+
+/* OTHER COL */
+
+.group-col .other-title{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.other-group-container {
+  width: 100%;
+  height: 32px;
+  padding-left: 10px;
+  padding-top: 6px;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+
+.other-group-container:hover {
+  background-color: #ccc;
+
+}
+
+/* MAIN COLUMN */
+
+.group-main-content {
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  /* minus header, minus input, minus padding, minus margin*/
+  height: calc(100vh - 60px - 100px - 25px - 20px);
+  background-color: white;
+  overflow-y: scroll;
+}
+
+/* .group-main-content-container {
+  max-height: calc(100vh - 60px - 100px - 25px - 20px);
+} */
+
+.group-input-container {
+  height: 50px;
+  width: 100%;
+}
+
+.group-input-container input{
+  height: 50px;
+  width: calc(100% - 120px);
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.group-main-send-btn {
+  float: right;
+  width: 100px;
+  height: 30px;
+  background-color: #2979ff;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+.group-main-send-btn:hover{
+  background-color: rgb(32, 94, 201);
+
+}
+
+.group-main-add-btn  {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 10px;
+}
+
+.group-main-add-btn button{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #2979ff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  transition: all ease 0.1s;
+}
+
+.group-main-add-btn button:hover{
+  background-color: rgb(32, 94, 201);
+  transition: all ease 0.1s;
+}
+
+.date-span{
+  color: #ddd;
+}
+
+.date-span:hover{
+  color: #666;
+}
+
+
+/* #####################
+Messages
+*/
+
+.group-main-msg-profile-pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-size: cover;
+  float: left;
+  margin-right: 10px;
+}
+
+.group-main-msg{
+  min-height: 50px;
+  padding-bottom: 10px;
+}
+
+.group-main-msg-content{
+  border-bottom: 1px solid #999;
+  margin-left: 60px;
+  padding-bottom: 10px;
+}
+
+/* EXPENSE */
+
+.group-expense-msg-container{
+  margin-bottom: 10px;
+}
+
+.expense-delete-container{
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all ease 0.1s;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.expense-delete-container:hover{
+  background-color: #ff5252;
+  transition: all ease 0.1s;
+  color: black;
+}
+
+.expense-container{
+  margin-top: 10px;
+  width: 500px;
+  min-height: 200px;
+  position: relative;
+}
+
+.expense-cover{
+  background-color: rgba(0,0,0, 0.3);
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  z-index: 1;
+  display: block;
+}
+
+.expense-lower{
+  height: 60px;
+  background-color: #5e96f7;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  
+}
+
+.expense-pay{
+  float: right;
+}
+
+.expense-pay-btn{
+  padding: 5px;
+  width: 75px;
+  text-align: center;
+  background-color: #c8e6c9;
+  color: black;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+.expense-close-btn{
+  padding: 5px;
+  width: 75px;
+  text-align: center;
+  background-color: #f85953;
+  color: black;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all ease 0.1s;
+  display: none;
+}
+
+.expense-close-btn:hover{
+  background-color: #96302d;
+  color: white;
+  transition: all ease 0.1s;
+}
+
+.expense-pay-btn:hover{
+  background-color: #2e7d32;
+  color: white;
+  transition: all ease 0.1s;
+}
+
+.expense-faces{
+  float: left;
+}
+
+.expense-upper-left{
+  float: left;
+  width: 50%;
+  
+}
+
+.expense-upper-left h3{
+  font-size: 24px;
+}
+
+.expense-upper-right{
+  float: right;
+  width: 50%;
+}
+
+.expense-total-remaining-title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.expense-remaining{
+  font-size: 50px;
+  text-align: center;
+}
+
+.expense-pic-small-container{
+  display: inline-block;
+}
+
+.expense-pic-small {
+  height: 36px;
+  width: 36px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.you-owe-title{
+  font-size: 24px;
+
+}
+
+.you-owe-txt {
+  font-size: 32px;
+  color: red;
+}
+
+.expense-pic-cover{
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.expense-payment-container{
+  display: none;
+}
+
+#expense-make-payment-btn{
+  background-color: #00C853;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+#expense-make-payment-btn:hover{
+  background-color: green;
+}
+
+.expense-payment-container input{
+  height: 60px;
+  width: 120px;
+  font-size: 48px;
+}
+
+/* SMALL-EXPENSE IN THE RIGHT (OTHER) COLUMN */
+
+.expense-small{
+  padding: 10px;
+  width: 100%;
+  background-color: #eee;
+  cursor: pointer;
+  transition: all ease 0.25s;
+}
+
+.expense-small:hover{
+  background-color: #ccc;
+  transition: all ease 0.1s;
+}
+
+.expense-small-pic-and-title{
+  height: 32px;
+  margin-bottom: 4px;
+}
+
+.expense-small-pic-and-title b{
+  margin-left: 4px;
+}
+
+.expense-small-pic{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-size: cover;
+  float: left;
+}
+
+/* create new group button in other column */
+
+.group-other-col-add-group-container{
+  padding: 10px;
+  padding-right: 15px;
+}
+
+.group-other-col-add-group-inner{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #00C853;
+  border-width: 2px;
+  color: #00c853;
+  cursor: pointer;
+  transition: all ease 0.25s;
+}
+
+.group-other-col-add-group-inner:hover{
+  background-color: #00c853;
+  color: white;
+  transition: all ease 0.25s;
+}
+
+.group-other-col-add-group-btn{
+  align-self: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .expense-container{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  
+  .group-main-col {
+    width: calc(100vw - 300px);
+  }
+  .group-other-col {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .expense-container{
+    margin-top: 25px;
+    left: -50px;
+  }
+  .group-members-col {
+    display: none;
+  }
+  .group-main-col{
+    width: 100vw;
+  }
+  .date-span{
+    display: none;
+  }
+}

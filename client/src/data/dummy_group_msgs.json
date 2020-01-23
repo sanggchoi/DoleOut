@@ -1,0 +1,306 @@
+[
+  {
+    "id": 0,
+    "groupId": 0,
+    "date": 0,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "hey bad boys"
+  },
+  {
+    "id": 1,
+    "groupId": 0,
+    "date": 1,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "thinkin about makin an expense later ;)"
+  },
+  {
+    "id": 2,
+    "groupId": 0,
+    "date": 123,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 16,
+      "username": "rick",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/16",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "stop posting cringe"
+  },
+  {
+    "id": 3,
+    "groupId": 0,
+    "date": 1000,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "ahah"
+  },
+  {
+    "id": 4,
+    "groupId": 0,
+    "date": 10001,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 19,
+      "username": "grace",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/19",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "@george did u buy tp"
+  },
+  {
+    "id": 5,
+    "groupId": 0,
+    "date": 103,
+    "type": "expense",
+    "expense": {
+      "id": 0,
+      "title": "Toilet Paper",
+      "cost": 9.99,
+      "remaining": 2.50,
+      "members": [
+        {
+          "id": 12,
+          "username": "george",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/12",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": true
+        },
+        {
+          "id": 19,
+          "username": "grace",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/19",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": true
+        },
+        {
+          "id": 17,
+          "username": "donald",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/17",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": true
+        },
+        {
+          "id": 1,
+          "username": "user",
+          "password": "user",
+          "picUrl": "https://api.adorable.io/avatars/200/1",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": false
+        }
+      ]
+    },
+    "user": {
+      "id": 12,
+      "username": "george",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/12",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname",
+      "paypal": "https://www.paypal.me/chrismarcok",
+      "preference": "paypal",
+      "description": "send me money please thank u :)"
+    },
+    "content": "pay me back pls"
+  },
+  {
+    "id": 6,
+    "groupId": 0,
+    "date": 10001,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "what the heck i don't use tp!!"
+  },
+  {
+    "id": 7,
+    "groupId": 0,
+    "date": 10001,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 19,
+      "username": "grace",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/19",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "ok will pay soon"
+  },
+  {
+    "id": 8,
+    "groupId": 0,
+    "date": 104,
+    "type": "expense",
+    "expense": {
+      "id": 1,
+      "title": "Bread",
+      "cost": 3.49,
+      "remaining": 2.79,
+      "members": [
+        {
+          "id": 16,
+          "username": "rick",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/16",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": true
+        },
+        {
+          "id": 19,
+          "username": "grace",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/19",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": false
+        },
+        {
+          "id": 17,
+          "username": "donald",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/17",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": false
+        },
+        {
+          "id": 18,
+          "username": "daniel",
+          "password": "123",
+          "picUrl": "https://api.adorable.io/avatars/200/18",
+          "email": "dummy@dummy.com",
+          "firstName": "Firstname",
+          "lastName": "McLastname",
+          "paid": false
+        }
+      ]
+    },
+    "user": {
+      "id": 16,
+      "username": "rick",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/16",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname",
+      "paypal": "https://www.paypal.me/chrismarcok",
+      "preference": "paypal",
+      "description": "send me money please thank u :)"
+    },
+    "content": "eyo i needed bread"
+  },
+  {
+    "id": 9,
+    "groupId": 6,
+    "date": 10000000000,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 19,
+      "username": "grace",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/19",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "donald has been demoted to vice-bootlicker"
+  },
+  {
+    "id": 10,
+    "groupId": 6,
+    "date": 100000001000,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "as you command it"
+  },
+  {
+    "id": 11,
+    "groupId": 0,
+    "date": 696969420,
+    "type": "msg",
+    "expense": {},
+    "user": {
+      "id": 17,
+      "username": "donald",
+      "password": "123",
+      "picUrl": "https://api.adorable.io/avatars/200/17",
+      "email": "dummy@dummy.com",
+      "firstName": "Firstname",
+      "lastName": "McLastname"
+    },
+    "content": "EW ITS WHOLE GRAIN WTF!!!!!"
+  }
+]
