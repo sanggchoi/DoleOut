@@ -13,14 +13,9 @@ If you need to build locally, clone the repo and navigate to team53/client. Skip
 5. run `npm run dev`
 6. open `localhost:5000` in Google Chrome
 
-# Summary of changes
-* Express App running on heroku
-* Data stored on mLab with mongoDB
-* Authentication handled with passport and express-session
-* Implements Socket.io for real-time chatting
-* Users can add balance to their DoleOut Wallet using PayPal Sandbox money
-* Authorization prevents users from accessing things they shouldn't be able to (entering a group they are not a member of)
-* Toasts tell users when something has gone wrong
+![](https://imgur.com/HeufiYu.png)
+![](https://imgur.com/oDTu7im.png)
+![](https://imgur.com/IjJFp9I.png)
 
 # Notes
 
